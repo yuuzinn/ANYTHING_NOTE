@@ -66,7 +66,7 @@ RequestMappingHandlerAdapter의 동작 방식은 아래와 같다.
 
 ![img_2.png](img_2.png)
 
-그래서 HandlerAdapter가 컨트롤러를 호출하기 전에 ArgumentResolver를 통해서 
+그래서 HandlerAdapter가 컨트롤러를 호출하기 전에 `ArgumentResolver`를 통해서 
 해당 컨트롤러의 parameter, annotation 정보를 기반으로 전달 데이터를 생성한다. 그림에도 나와 있듯이
 HttpServletRequest, Model, @RequestParam, @ModelAttribute, @RequestBody, HttpEntity ... 
 
